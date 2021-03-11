@@ -21,8 +21,8 @@ const LeagueDetail = () => {
             <img src={league.strLogo} alt="" />
             <div className = "league-info">
                 <div>
-                    <h1> {league.strLeague}</h1>
-                    <h3> Founded: {league.intFormedYear}</h3>
+                    <h1>{league.strLeague}</h1>
+                    <h3>Founded: {league.intFormedYear}</h3>
                     <h3>Country: {league.strCountry}</h3>
                     <h3>Sports Type: {league.strSport}</h3>
                     <h3>Gender: {league.strGender}</h3>
@@ -32,9 +32,9 @@ const LeagueDetail = () => {
                 </div>
             </div>
             <p>{league.strDescriptionEN}</p>
-            <a href={league.strTwitter}>t</a>
-            <a href={league.strFacebook}>f</a>            
-            <a href={league.strYoutube}>y</a>
+            <a href={league.strTwitter}><img src="../Icon/Twitter.png" alt="" />Twitter</a>
+            <a href={league.strFacebook}><img src="../Icon/Facebook.png" alt="" />Facebook</a>
+            <a href={league.strYoutube}><img src="../Icon/YouTube.png" alt="" />YouTube</a>
             
 
         </div>

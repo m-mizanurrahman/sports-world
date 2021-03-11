@@ -1,9 +1,8 @@
 Project Name: Team Tracker | React Router App.
 
-Description: I used the following technology:
-                1. React Router
-                2. React Bootstrap
-                3. thesportsdb api
+Description: I used:
+                . React Router               
+                . thesportsdb api
 
 
 
